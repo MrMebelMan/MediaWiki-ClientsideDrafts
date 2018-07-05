@@ -82,7 +82,7 @@
             saveKey(key, state);
         };
 
-        $('<p style="margin: 10px auto">Черновик сохраняется каждые ' + AUTOSAVE_INTERVAL / 1000 + ' секунд.</p>').insertBefore('#editpage-copywarn p');
+        $('<p style="margin: 10px auto">The draft is saved every ' + AUTOSAVE_INTERVAL / 1000 + ' seconds.</p>').insertBefore('#editpage-copywarn p');
         setInterval(saveDraft, AUTOSAVE_INTERVAL);
         loadDraft();
 
